@@ -1,0 +1,80 @@
+[
+    {
+      "nome": "Candidato1",
+      "idade": 30,
+      "experiencia": 5,
+      "telefone": "123-456-7891",
+      "pontuacao": 65
+    },
+    {
+      "nome": "Candidato2",
+      "idade": 25,
+      "experiencia": 3,
+      "telefone": "123-456-7892",
+      "pontuacao": 45
+    },
+    {
+      "nome": "Candidato3",
+      "idade": 40,
+      "experiencia": 8,
+      "telefone": "123-456-7893",
+      "pontuacao": 72
+    },
+    {
+      "nome": "Candidato4",
+      "idade": 28,
+      "experiencia": 4,
+      "telefone": "123-456-7894",
+      "pontuacao": 55
+    },
+    {
+      "nome": "Candidato5",
+      "idade": 35,
+      "experiencia": 6,
+      "telefone": "123-456-7895",
+      "pontuacao": 68
+    },
+    {
+      "nome": "Candidato6",
+      "idade": 29,
+      "experiencia": 3,
+      "telefone": "123-456-7896",
+      "pontuacao": 50
+    },
+    {
+      "nome": "Candidato7",
+      "idade": 32,
+      "experiencia": 5,
+      "telefone": "123-456-7897",
+      "pontuacao": 63
+    },
+    {
+      "nome": "Candidato8",
+      "idade": 38,
+      "experiencia": 7,
+      "telefone": "123-456-7898",
+      "pontuacao": 70
+    },
+    {
+      "nome": "Candidato9",
+      "idade": 26,
+      "experiencia": 4,
+      "telefone": "123-456-7899",
+      "pontuacao": 52
+    },
+    {
+      "nome": "Candidato10",
+      "idade": 31,
+      "experiencia": 6,
+      "telefone": "123-456-7801",
+      "pontuacao": 67
+    },
+    {
+      "nome": "Candidato50",
+      "idade": 32,
+      "experiencia": 7,
+      "telefone": "123-456-7950",
+      "pontuacao": 60
+    }
+  ]
+  

@@ -1,0 +1,43 @@
+<script>
+    // Função para preencher a lista de candidatos a partir de um arquivo JSON
+    async function preencherCandidatos() {
+        // Obtenha a referência à lista de candidatos
+        const listaCandidatos = document.querySelector('.candidatos-lista');
+
+        try {
+            // Faça uma requisição para obter os dados do arquivo JSON
+            const response = await fetch('candidatos.json');
+            const candidatos = await response.json();
+
+            // Limpe a lista antes de adicionar novos candidatos
+            listaCandidatos.innerHTML = '';
+
+            // Preencha dinamicamente a lista de candidatos
+            candidatos.forEach(candidato => {
+                const divCandidato = document.createElement('div');
+                divCandidato.classList.add('candidato');
+
+                const nomeElement = document.createElement('h2');
+                nomeElement.textContent = candidato.nome;
+
+                const detalhesElement = document.createElement('p');
+                detalhesElement.textContent = `Idade: ${candidato.idade}, Experiência: ${candidato.experiencia}, Pontuação: ${candidato.pontuacao}`;
+
+                const telefoneElement = document.createElement('p');
+                telefoneElement.classList.add('telefone');
+                telefoneElement.textContent = `Telefone: ${candidato.telefone}`;
+
+                divCandidato.appendChild(nomeElement);
+                divCandidato.appendChild(detalhesElement);
+                divCandidato.appendChild(telefoneElement);
+
+                listaCandidatos.appendChild(divCandidato);
+            });
+        } catch (error) {
+            console.error('Erro ao obter dados do arquivo JSON:', error);
+        }
+    }
+
+    // Chame a função ao carregar a página
+    window.onload = preencherCandidatos;
+</script>
